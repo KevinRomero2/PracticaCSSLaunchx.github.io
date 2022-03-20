@@ -1,0 +1,708 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+* {
+    font-family: roboto, ser;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.color-grises {
+    color: rgb(109, 123, 147);
+}
+
+.color-ProtectYSelect {
+    color: rgb(39, 69, 119);
+    font-weight: 600;
+}
+
+
+.titulos-color {
+    color: rgb(31, 62, 114);
+}
+
+.titulos-vaccination {
+    color: rgb(57, 89, 214);
+    font-size: 25px;
+}
+
+.linksNavegacion {
+    text-decoration: none;
+}
+
+/* Estilos barra de navegacion */
+
+.navegacion {
+    background: linear-gradient(90deg, rgba(252, 252, 252, 0) 49.9%, rgb(221, 235, 247) 55%);
+    width: 100%;
+    height: 5rem;
+    position: absolute;
+    top: 0px;
+    padding-top: 5px;
+    z-index: 11;
+}
+
+.BarraPrincipalSuperior {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav__barra {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.nav__barra a {
+    margin: 15px;
+    font-weight: bold;
+
+}
+
+.nav__barra a:hover {
+    color: rgb(57, 89, 214);
+
+}
+
+.nav__barra input {
+    background-color: rgb(52, 84, 210);
+    color: white;
+    font-weight: 400px;
+    width: 120px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 5px 8px rgba(30, 56, 173, 0.466);
+    font-size: 13px;
+    border-color: rgb(52, 84, 210);
+
+}
+
+.nav__barra input:hover {
+    transform: scale(1.05, 1.05);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.imagenDoctoraVacuna {
+    height: 780px;
+    width: 680px;
+    max-width: 850px;
+    max-height: 900px;
+    position: absolute;
+    left: 54%;
+    top: 82px;
+
+}
+
+.ParteIntroduction {
+    height: 550px;
+    width: 822px;
+    margin-top: 82px;
+    display: grid;
+    grid-template-columns: 1.3fr 1.2fr;
+}
+
+.tituloParte1 {
+    font-weight: 700;
+    font-size: 68px;
+    text-transform: initial;
+    height: 180px;
+    width: 450px;
+    text-align: left;
+    line-height: 75px;
+    margin-left: 120px;
+    margin-top: 80px;
+}
+
+.parrafoParte1 {
+    height: 80px;
+    width: 420px;
+    margin-left: 120px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+
+.cajitasInicio {
+    width: 420px;
+    height: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.imagenesIconos {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 2px;
+    margin-right: 10px;
+}
+
+.imagenFondo1 {
+    height: 550px;
+    width: 1200px;
+    background-image: url(https://i.ibb.co/Wz2cPTH/ffond2.png);
+    background-blend-mode: soft-light;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.cajitaHorario {
+    margin-top: 20px;
+    width: 400px;
+    height: 35px;
+
+    margin-left: 110px;
+}
+
+
+
+.cajitaHorario h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cajitaHorario img {
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    box-shadow: 0 0 2px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.ContenedorCitaVacuna {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 100px;
+    width: 750px;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    gap: 1rem;
+    box-shadow: 0px 2px 8px rgba(68, 106, 233, 0.3);
+    border-radius: 1rem;
+    margin-left: 8rem;
+    margin-top: 20px;
+    padding: 10px 40px 10px 30px;
+}
+
+.ContenedorCitaVacuna:hover {
+    transform: scale(1.01, 1.01);
+    box-shadow: 0px 10px 40px rgb(3 19 23 / 25%);
+    transition: 0.3s;
+}
+
+.ContenedorCitaVacuna img {
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    box-shadow: 0 0 2px;
+    margin-right: 5px;
+}
+
+.ContenedorCitaVacuna input {
+    background-color: rgb(52, 84, 210);
+    color: white;
+    font-weight: 500;
+    width: 100px;
+    height: 35px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 5px 8px rgba(30, 56, 173, 0.466);
+    font-size: 12px;
+    border-color: rgb(52, 84, 210);
+}
+
+.ContenedorCitaVacuna input:hover {
+    transform: scale(1.05, 1.05);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.ContenedorCitaVacuna p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ContenedorCitaVacuna h2 {
+    font-size: 20px;
+
+}
+
+.imagenMarcasVacunas {
+    margin-top: 180px;
+    width: 100%;
+    height: 180px;
+}
+
+.linea {
+    border-top: 1px solid rgb(109, 123, 147);
+    height: 2px;
+    max-width: 100%;
+    padding: 0;
+    margin: 20px auto 0px auto;
+}
+
+.textoParte2 {
+    width: 100%;
+    height: 240px;
+}
+
+.textoParte2 h1 {
+    font-weight: 600;
+    font-size: 48px;
+    text-transform: initial;
+    height: 60px;
+    width: 500px;
+    text-align: left;
+    margin-left: 120px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+
+}
+
+.textoParte2 img {
+    position: absolute;
+    left: 88.8%;
+    top: 1010px;
+}
+
+.textoParte2 p {
+    height: 80px;
+    width: 530px;
+    margin-left: 120px;
+    font-size: 20.5px;
+    font-weight: 450;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.ContenedoresVacunas {
+    width: 100%;
+    max-width: 1200px;
+    height: 325px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.ContenedoresVacunas .CajitaVacuna {
+    width: 230px;
+    height: 280px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: left;
+    transition: all 0.25s;
+}
+
+.ContenedoresVacunas .CajitaVacuna:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.ContenedoresVacunas .CajitaVacuna img {
+    width: 45px;
+    height: 45px;
+    margin: 1rem 1rem 1rem 1.5rem;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.ContenedoresVacunas .CajitaVacuna h2 {
+    font-weight: 500;
+    padding: 0 1rem;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.ContenedoresVacunas .CajitaVacuna p {
+    padding: 0 1rem;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.PartePreparacion {
+    width: 100%;
+    height: 800px;
+}
+
+.ParteTexto3 {
+    width: 100%;
+    height: 350px;
+}
+
+.ParteTexto3 h1 {
+    font-weight: 600;
+    font-size: 44px;
+    text-transform: initial;
+    height: 60px;
+    width: 580px;
+    text-align: left;
+    position: relative;
+    top: -160px;
+    left: 800px;
+    margin-bottom: 42px;
+}
+
+.ParteTexto3 p {
+    width: 580px;
+    height: 100px;
+    position: relative;
+    text-align: left;
+    top: -160px;
+    left: 800px;
+    font-size: 19px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.imagenSeñora3 {
+    width: 50%;
+    height: 650px;
+    position: relative;
+    top: -200px;
+}
+
+.imagenChicaCubrebocas {
+    height: 645px;
+    width: 900px;
+    position: absolute;
+    right: -30px;
+}
+
+.ContenedorCajitas3 {
+    width: 50%;
+    height: 450px;
+    position: relative;
+    left: 50%;
+    top: -650px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.ContenedorCajitas3 .CajitaParte3 {
+    width: 470px;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: visible;
+    margin: 20px;
+    text-align: left;
+    transition: all 0.25s;
+    margin-left: -80px;
+    margin-top: -40px;
+}
+
+.ContenedorCajitas3 .CajitaParte3:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.ContenedorCajitas3 .CajitaParte3 .img3 {
+    width: 25px;
+    height: 25px;
+    margin: 1rem 0.5rem 1rem 1.5rem;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    display: inline;
+}
+
+.ContenedorCajitas3 .CajitaParte3 h1 {
+    font-weight: 700;
+    padding: 0 1rem;
+    margin-bottom: 20px;
+    font-size: 18px;
+    width: 300px;
+    display: inline;
+    position: relative;
+    top: -20px;
+}
+
+.ContenedorCajitas3 .CajitaParte3 p {
+    padding: 0 1rem;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.ContenedorCajitas3 .CajitaParte3 .Desplegar {
+    width: 25px;
+    height: 25px;
+    margin: 1rem 0.5rem 1rem 1.5rem;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    position: relative;
+}
+
+.ParteContactoEmergencia {
+    width: 100%;
+    height: 800px;
+}
+
+.parteTexto4 {
+    width: 100%;
+    height: 350px;
+}
+
+.parteTexto4 img {
+    position: absolute;
+    left: 88.8%;
+    top: 2415px;
+}
+
+.parteTexto4 h1 {
+    font-weight: 700;
+    font-size: 38px;
+    text-transform: initial;
+    height: 60px;
+    width: 345px;
+    text-align: left;
+    margin-left: 120px;
+    margin-top: 85px;
+    margin-bottom: 35px;
+}
+
+.parteTexto4 p {
+    height: 80px;
+    width: 530px;
+    margin-left: 120px;
+    font-size: 19.5px;
+    font-weight: 450;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.ImagenEmergencia {
+    width: 50%;
+    height: 650px;
+    position: relative;
+    top: -200px;
+    left: 740px;
+}
+
+.imagenDoctor {
+    height: 649px;
+    width: 735px;
+    position: relative;
+}
+
+.ContenedorEmergencia {
+    width: 50%;
+    height: 450px;
+    position: relative;
+    top: -650px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.ContenedorEmergencia .CajitaParte4 {
+    width: 230px;
+    height: 180px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: left;
+    transition: all 0.25s;
+    margin-left: 50px;
+    margin-top: -30px;
+}
+
+.ContenedorEmergencia .CajitaParte4:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.ContenedorEmergencia .CajitaParte4 img {
+    width: 45px;
+    height: 45px;
+    margin: 1rem 1rem 1rem 1.5rem;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+
+}
+
+.ContenedorEmergencia .CajitaParte4 h2 {
+    font-weight: 500;
+    padding: 0 1rem;
+    margin-bottom: 20px;
+    font-size: 21.5px;
+    position: relative;
+    top: -66px;
+    left: 70px;
+    width: 150px;
+}
+
+.ContenedorEmergencia .CajitaParte4 p {
+    padding: 0 1rem;
+    font-size: 14.5px;
+    font-weight: 500;
+    position: relative;
+    top: -81px;
+    left: 70px;
+    width: 150px;
+}
+
+.ContenedorEmergencia .CajitaParte4 input {
+    background-color: rgb(203, 225, 255);
+    color: rgb(0, 58, 137);
+    font-weight: 700;
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 8px rgba(30, 56, 173, 0.466);
+    font-size: 15px;
+    border-color: rgb(203, 225, 255);
+    position: relative;
+    left: 25px;
+    top: -50px;
+}
+
+.ContenedorEmergencia .CajitaParte4 input:hover {
+    transform: scale(1.05, 1.05);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    color: white;
+    background-color: rgb(0, 58, 137);
+}
+
+.ParteBannerInferior {
+    width: 100%;
+    height: 350px;
+    max-height: 350px;
+}
+
+.cajitaVaccination {
+    height: 200px;
+    width: 230px;
+}
+
+.cajitaVaccination h2 {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 150px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.cajitaVaccination p {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 115px;
+    width: 190px;
+    height: 90px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.contenedorParte5 {
+    width: 40%;
+    max-width: 1200px;
+    height: 280px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+    top: -170px;
+    left: 790px;
+}
+
+.contenedorParte5 .CajitaParte5 {
+    width: 230px;
+    height: 200px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: left;
+    transition: all 0.25s;
+}
+
+.contenedorParte5 .CajitaParte5 h2 {
+    font-weight: bold;
+    height: auto;
+    width: auto;
+    margin-bottom: 1.5rem;
+    font-size: 22px;
+}
+
+.contenedorParte5 .CajitaParte5 a {
+    font-weight: bold;
+    height: auto;
+    width: auto;
+    margin-bottom: 150px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.contenedorParte5 .CajitaParte5 a:hover {
+    color: rgb(57, 89, 214);
+    cursor: pointer;
+}
+
+.pieFinal {
+    position: relative;
+    top: -175px;
+}
+
+.pieFinal footer {
+    display: inline;
+    color: rgb(109, 123, 147);
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 50px;
+}
+
+
+.pieFinal a {
+    position: relative;
+    top: 10px;
+    left: 800px;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.pieFinal a:hover {
+    color: rgb(57, 89, 214);
+    cursor: pointer;
+}
+
+
+
+
+.FondoFooter {
+    height: 350px;
+    background-image: url(https://i.ibb.co/w4px0Sf/fotfond2.png);
+    background-blend-mode: soft-light;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
